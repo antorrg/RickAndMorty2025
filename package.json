@@ -1,0 +1,49 @@
+{
+  "name": "api",
+  "version": "2.0.0",
+  "description": "Api REST creada para sostener y exhibir los proyectos creados por medio de las tecnologias aprendidas en Henry",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antorrg/RickAndMorty2025.git"
+  },
+  "keywords": [
+    "API REST, Express.js, jsonwebtoken, postgres"
+  ],
+  "author": "Antonio Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antorrg/RickAndMorty2025/issues"
+  },
+  "homepage": "https://github.com/antorrg/RickAndMorty2025#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mercadopago": "^2.0.8",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.13",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "postgres": "^3.4.4",
+    "sequelize": "^6.37.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
